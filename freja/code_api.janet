@@ -1,4 +1,4 @@
-(import spork/fmt)
+(import ./jandent/indent :as fmt)
 (import ./new_gap_buffer :prefix "")
 
 (varfn format-code
