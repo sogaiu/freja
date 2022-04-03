@@ -1,11 +1,11 @@
-(import freja/editor :as ed)
-(import freja/theme :as t)
-(import freja/hiccup :as h)
-(import freja/file-handling :as fh)
-(import freja/new_gap_buffer :as gb)
-(import freja/state)
-(import freja/event/subscribe :as s)
-(use freja/defonce)
+(import ./editor :as ed)
+(import ./theme :as t)
+(import ./hiccup :as h)
+(import ./file-handling :as fh)
+(import ./new_gap_buffer :as gb)
+(import ./state)
+(import ./event/subscribe :as s)
+(use ./defonce)
 
 (defn default-left-editor
   [props & _]

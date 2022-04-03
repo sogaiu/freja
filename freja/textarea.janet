@@ -2,8 +2,8 @@
 (import ./new_gap_buffer :as gb)
 (import ./input :as i)
 (import ./collision :as c)
-(import freja/theme)
-(import freja/state)
+(import ./theme)
+(import ./state)
 (import ./render_new_gap_buffer :as rgb)
 (use freja-jaylib)
 

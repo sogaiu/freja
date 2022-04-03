@@ -1,5 +1,5 @@
 (import bounded-queue :as queue)
-(import freja/state)
+(import ../state)
 
 # a push-pull system
 # events are pushed to queues

@@ -1,4 +1,4 @@
-(import freja/state)
+(import ./state)
 (import bounded-queue :as queue)
 (import ./new_gap_buffer :as gb)
 

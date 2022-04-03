@@ -1,9 +1,9 @@
 (import ../state)
-(import freja/checkpoint)
-(import freja/textarea)
-(import freja/theme)
-(import freja/editor)
-(import freja/event/subscribe :as s)
+(import ../checkpoint)
+(import ../textarea)
+(import ../theme)
+(import ../editor)
+(import ../event/subscribe :as s)
 
 (defn new-editor-state
   [{:path path}]

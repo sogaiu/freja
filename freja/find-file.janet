@@ -7,13 +7,13 @@
 # - search through those
 
 (import spork/path)
-(import freja/theme)
-(import freja/hiccup :as h)
-(import freja/textarea :as t)
-(import freja/open-file)
-(import freja/file-handling :as fh)
-(import freja/state)
-(import freja/event/subscribe :as s)
+(import ./theme)
+(import ./hiccup :as h)
+(import ./textarea :as t)
+(import ./open-file)
+(import ./file-handling :as fh)
+(import ./state)
+(import ./event/subscribe :as s)
 
 (defn get-files
   [root]

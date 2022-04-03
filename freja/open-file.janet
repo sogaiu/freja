@@ -1,5 +1,5 @@
-(import freja/state)
-(import freja/new_gap_buffer :as gb)
+(import ./state)
+(import ./new_gap_buffer :as gb)
 (import spork/path)
 
 (defn open-file*

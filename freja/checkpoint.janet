@@ -1,10 +1,10 @@
 (import spork/path)
 (import ./file-handling)
-(import freja/state)
-(import freja/event/subscribe :as s)
-(import freja/theme)
-(import freja/file-handling :as fh)
-(import freja/render_new_gap_buffer :as rgb)
+(import ./state)
+(import ./event/subscribe :as s)
+(import ./theme)
+(import ./file-handling :as fh)
+(import ./render_new_gap_buffer :as rgb)
 
 (varfn checkpoint-date
   []

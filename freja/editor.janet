@@ -1,12 +1,12 @@
 (import ./textarea :as ta :fresh true)
 (import ./theme :as t)
 (import ./default-hotkeys :as dh)
-(import freja/state)
-(import freja/file-handling :as fh)
-(import freja/new_gap_buffer :as gb)
-(import freja/render_new_gap_buffer :as rgb)
+(import ./state)
+(import ./file-handling :as fh)
+(import ./new_gap_buffer :as gb)
+(import ./render_new_gap_buffer :as rgb)
 (import ./evaling)
-(import freja/event/subscribe :as s)
+(import ./event/subscribe :as s)
 
 (defn eval-expr
   [props]

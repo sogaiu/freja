@@ -1,4 +1,4 @@
-(import freja/open-file)
+(import ./open-file)
 
 (defn jump-to-def
   [symbol &keys {:env env}]

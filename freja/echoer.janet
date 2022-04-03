@@ -1,11 +1,11 @@
 (import freja-jaylib)
-(import freja/state)
-(import freja/textarea :as ta)
-(use freja/defonce)
-(import freja/theme :as t)
-(import freja/new_gap_buffer :as gb)
-(import freja/input)
-(import freja/event/subscribe :as s)
+(import ./state)
+(import ./textarea :as ta)
+(use ./defonce)
+(import ./theme :as t)
+(import ./new_gap_buffer :as gb)
+(import ./input)
+(import ./event/subscribe :as s)
 
 (defmacro curry
   [f-sym curried-arg]

@@ -1,5 +1,5 @@
 (use freja-jaylib)
-(import freja/state)
+(import ./state)
 (import ./dumb :prefix "")
 (import ./new_gap_buffer :as gb)
 (import ./render_new_gap_buffer :as render-gb)

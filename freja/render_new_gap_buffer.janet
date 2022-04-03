@@ -6,7 +6,7 @@
 (import ./textfield_api :prefix "")
 (import ./text_rendering :as tr)
 (import ./find_row_etc :prefix "")
-(import freja/assets :as a)
+(import ./assets :as a)
 (import ./rainbow :as rb)
 (import ./highlighting :as hl)
 

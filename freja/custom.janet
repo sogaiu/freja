@@ -1,8 +1,8 @@
 (import freja-layout/default-tags :as dt)
-(import freja/state)
-(import freja/events :as e)
-(import freja/assets :as a)
-(import freja/text_rendering :as tr)
+(import ./state)
+(import ./events :as e)
+(import ./assets :as a)
+(import ./text_rendering :as tr)
 
 (defn draw-text
   [text pos &keys {:size size
