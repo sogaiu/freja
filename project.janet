@@ -23,8 +23,8 @@
                  {:repo "https://github.com/Saikyun/janet-profiling" :tag "main"}
 
                  ## using my own fork due to additions to jaylib
-                 {:repo freja-jaylib-dep}
-
+                 #{:repo freja-jaylib-dep}
+                 {:repo "https://github.com/sogaiu/freja-jaylib" :tag "arch-linux-tweak"}
                  # example of how to use `:tag`
                  # {:repo "https://...." :tag "abcdcbdc"}
 ])
